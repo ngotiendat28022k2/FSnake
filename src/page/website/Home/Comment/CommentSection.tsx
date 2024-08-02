@@ -34,7 +34,7 @@ const CommentSection: React.FC = () => {
         setNewComment(event.target.value);
     };
 
-    const handleRatingChange = (event: React.SyntheticEvent<Element, Event>, newValue: number | null) => {
+    const handleRatingChange = (_event: React.SyntheticEvent<Element, Event>, newValue: number | null) => {
         setNewRating(newValue);
     };
 

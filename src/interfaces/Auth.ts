@@ -11,8 +11,3 @@ export interface LoginForm {
   email: string;
   password: string;
 }
-
-interface User {
-  name: string;
-  // Các thuộc tính khác nếu cần
-}
